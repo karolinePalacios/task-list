@@ -1,0 +1,127 @@
+html {
+  overflow-x: hidden;
+}
+body {
+  font-family: LatoLatinWeb, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: white;
+  background-color: #F1A9A0;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+}
+a {
+  color: #E26A6A;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: #F62459;
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #D2527F;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background: #E08283;
+  -webkit-box-shadow: inset 0 0 6px #545259;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #F1A9A0;
+}
+.btn-main {
+	font-weight:bolder;
+	font-size:18px;
+	background-color:#D2527F;
+	color:white;
+}
+.btn-main:hover,
+.btn-main:focus {
+	background-color:#DB0A5B;
+	color:white;
+}
+.btn-main:active,
+.btn-main.active {
+	background-color:#DB0A5B;
+	color:white;
+}
+.panel-main {
+	background-color:transparent;
+	border-color:transparent;
+	border-style:none;
+}
+.panel-main > .panel-heading {
+	background-color:#E08283;
+	color:white;
+	border-radius:12px;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
+.panel-main > .panel-body {
+	background-color:white;
+	color:#D2527F;
+}
+.panel-main > .panel-footer {
+	background-color:#E08283;
+	color:white;
+	border-radius:12px;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+}
+.clickable {
+  cursor: pointer;
+  cursor: hand;
+}
+.b {
+  font-weight: bold;
+}
+.bd {
+  font-weight: bolder;
+}
+.size-6 {
+  font-size: 6px;
+}
+.size-8 {
+  font-size: 8px;
+}
+.size-10 {
+  font-size: 10px;
+}
+.size-12 {
+  font-size: 12px;
+}
+.size-14 {
+  font-size: 14px;
+}
+.size-16 {
+  font-size: 16px;
+}
+.size-18 {
+  font-size: 18px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding-left: 1.3em;
+}
+ul.listN > li:before {
+  content: "\f00d";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+}
+ul.listY > li:before {
+  content: "\f00c";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+}
